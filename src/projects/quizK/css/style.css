@@ -1,16 +1,10 @@
 body {
-  background-color: #25a52598;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#25a52598), to(#2323a8a2));
-  background-image: linear-gradient(to bottom, #25a52598, #2323a8a2);
-  background-repeat: no-repeat;
-  color: #f0ebbf;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0%;
-  padding: 0%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
+  background: radial-gradient(khaki 40px, transparent 0, transparent 100%),
+    radial-gradient(skyblue 40px, transparent 0, transparent 100%),
+    radial-gradient(pink 40px, transparent 0, transparent 100%), snow;
+  background-blend-mode: multiply;
+  background-size: 100px 100px;
+  background-position: 0 0, 33px 33px, -33px -33px;
 }
 
 h1 {
@@ -22,7 +16,8 @@ h1 {
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex, block;
+
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -33,21 +28,23 @@ h1 {
 
 img {
   margin-left: 2%;
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
 }
 
 button {
   background-color: lawngreen;
   color: black;
-  border-radius: 12%;
+  text-align: center;
+  width: 35%;
+  height: 20px;
+  border-radius: 15px;
   margin: 30px;
 }
 
 .question {
-  background-color: rgba(17, 17, 92, 0.603);
   border: 5px solid hotpink;
-  border-radius: 3%;
+  border-radius: 15px;
   padding: 10px;
   margin: 50px;
   -webkit-box-pack: center;
@@ -65,7 +62,6 @@ button {
 a {
   text-decoration: none;
   cursor: progress;
-  color: #f0ebbf;
+  color: #21810ed8;
   size: 150px;
 }
-/*# sourceMappingURL=mockUp.css.map */

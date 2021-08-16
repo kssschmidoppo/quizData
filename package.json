@@ -1,22 +1,27 @@
 {
-  "name": "sportsquiz",
+  "name": "quizdata",
   "version": "1.0.0",
-  "description": "PHP project about a sport quiz",
+  "description": "sportquiz",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "sass:watch": "sass --watch $(pwd)/src/sass:$(pwd)/build/css"
+    "sass:watch": "sass --watch $(pwd)/src/scss:$(pwd)/build/css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghetterking/sportsquiz.git"
+    "url": "git+https://github.com/kssschmidoppo/quizdata.git"
   },
+  "keywords": [
+    "quiz"
+  ],
   "author": "Ksenija",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ghetterking/sportsquiz/issues"
+    "url": "https://github.com/kssschmidoppo/quizdata/issues"
   },
-  "homepage": "https://github.com/ghetterking/sportsquiz#readme"
+  "homepage": "https://github.com/kssschmidoppo/quizdata#readme",
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+
 }
+
